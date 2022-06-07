@@ -6,17 +6,13 @@
 
 * {
   box-sizing: border-box;
-  font-family: Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding: 0;
   margin: 0;
   text-decoration: none;
   transition: all 300ms;
 }
 
-/* html default */ button {
-  border: 0;
-  background: transparent;
-}
 
 html, body {
   scroll-behavior: smooth;
@@ -37,7 +33,15 @@ nav {
   background: var(--accent);
 }
 
-nav * { color: white; }
+/* html default */
+button {
+  border: 0;
+  background: transparent;
+}
+
+nav * {
+  color: white;
+}
 
 nav .items {
   display: flex;
@@ -78,7 +82,7 @@ nav .items .link {
   flex-direction: column;
 
   text-align: center;
-  
+
   height: 100vh;
   width: 100%;
 }
